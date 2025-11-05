@@ -55,3 +55,28 @@
    - Comments: Explain each step in your code.
    - GitHub: Commit often with clear messages; publish on GitHub Pages.
 */
+
+
+let Name1 = prompt('1st name')
+let Name2 = prompt('2nd name')
+let WeddingAdj = prompt('adjective')
+let Place = prompt('place')
+let Animal1 = prompt('animal (plural)')
+let Monument = prompt('monument or sight')
+let Months = prompt('# of months')
+let Name3 = prompt('3rd name')
+let ChildAdj = prompt('adjective')
+let ChildNoun = prompt('noun (plural)')
+let LifeAdj = prompt('adjective')
+let Verb = prompt ('verb (past tense)')
+let Animal2 = prompt('animal')
+
+
+
+let myStory = `
+
+<p>Once upon a time, <b>${Name1}</b> and <b>${Name2}</b> fell in love. Their wedding was incredibly <b>${WeddingAdj}</b>. On their honeymoon, they went to <b>${Place}</b>, where they saw <b>${Animal1}</b> and <b>${Monument}</b>. They had a child <b>${Months}</b> months later and named it <b>${Name3}</b>. Their child was <b>${ChildAdj}</b> and they loved <b>${ChildNoun}</b>. <b>${Name1}</b>, <b>${Name2}</b>, and <b>${Name3}</b> lived a <b>${LifeAdj}</b> life. They <b>${Verb}</b> at home and played with their <b>${Animal2}</b>.
+
+`
+
+document.getElementById("madlib-output").innerHTML=myStory
