@@ -7,15 +7,21 @@
   border-radius: var(--card-radius);
 }
 
+html, body {
+  background-color: rgb(235, 214, 225);
+  cursor: url('cursor.png'), auto;
+}
+:hover {
+  cursor: url('cursor.png'), auto;
+}
+
 #madlib-output {
   min-height: 6rem; /* keeps the card from collapsing before story appears */
   line-height: 1.6;
   font-size: 1.05rem;
 }
 
-body {
-background-color: rgb(235, 214, 225);
-}
+
 
 .card {
   background-color: rgb(232, 196, 215);
@@ -33,7 +39,6 @@ background-color: rgb(235, 214, 225);
 /* the inputs and body of the card */
 .text {
   font-family: "dynapuff-condensed", sans-serif;
-  font-weight: 400;
   font-style: normal;
 }
 
